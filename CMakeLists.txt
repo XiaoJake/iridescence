@@ -209,6 +209,7 @@ target_link_libraries(iridescence PUBLIC
   OpenGL::GL
   glfw
   ${EXTRA_LIBRARIES}
+  stdc++fs
 )
 target_link_libraries(iridescence PRIVATE
   glm::glm
